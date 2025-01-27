@@ -12,22 +12,22 @@
 
 ## **Key Features**
 - User Authentication:
-    Secure signup and login using JWT for authentication.
-    Passwords hashed securely using bcrypt.
+    - Secure signup and login using JWT for authentication.
+    - Passwords hashed securely using bcrypt.
 
 - Matchmaking System:
-    View other developers’ profiles with their details like name, skills, and interests.
-    Swipe through profiles and send requests to connect.
+    - View other developers’ profiles with their details like name, skills, and interests.
+    - Swipe through profiles and send requests to connect.
 
 - Connection Management:
-    Accept or reject connection requests from other users.
-    Maintain a list of confirmed connections.
+    - Accept or reject connection requests from other users.
+    - Maintain a list of confirmed connections.
 
 - Chat Messaging:
-    Message your connections in real-time to collaborate or network.
+    - Message your connections in real-time to collaborate or network.
 
 - Responsive UI:
-    A user-friendly interface built with React.js, TailwindCSS, and DaisyUI.
+    - A user-friendly interface built with React.js, TailwindCSS, and DaisyUI.
 
 ## **Updated Project Workflow**
 - Sign Up:
