@@ -24,7 +24,9 @@
     - git clone [https://github.com/itsaimsd/DevSwipe.git]
 
     - Navigate to the project directory:
-    cd DevSwipe
+        - cd backend
+        - npm install
+
 - 2. Install Backend Dependencies
 
 
