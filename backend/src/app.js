@@ -44,7 +44,7 @@ const cors = require("cors");
 // CORS Configuration
 app.use(
   cors({
-    origin: ["http://localhost:3000", "https://your-frontend-url.com"], // Add your frontend's Render URL
+    origin: ["http://localhost:3000", "https://devswipe.netlify.app"], // Add your frontend's Render URL
     credentials: true,
   })
 );
