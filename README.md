@@ -42,7 +42,7 @@
         - [Replace your_mongodb_connection_string and your_jwt_secret_key with your actual MongoDB connection string and JWT secret key.]
 - Start the Backend Server
     - npm start
-- Install Frontend Dependencies
+- **Install Frontend Dependencies**
     - cd ../frontend
     - npm install
 - Configure the Frontend
