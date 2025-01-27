@@ -17,6 +17,16 @@
     - Chat Messaging: Engage in real-time conversations with connections, fostering collaboration and networking.
 
 
+## **Installation and Setup**
+- Follow these steps to set up the project on your local machine:
+
+- 1. Clone the Repository
+    git clone https://github.com/itsaimsd/DevSwipe.git
+
+    - Navigate to the project directory:
+    cd DevSwipe
+- 2. Install Backend Dependencies
+
 
 ## **Key Features**
 - User Authentication:
