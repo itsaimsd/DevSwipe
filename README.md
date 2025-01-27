@@ -10,7 +10,7 @@
     - Chat Messaging: Engage in real-time conversations with connections, fostering collaboration and networking.
 
 
-# Key Features
+## **Key Features**
 - User Authentication:
     Secure signup and login using JWT for authentication.
     Passwords hashed securely using bcrypt.
@@ -29,23 +29,35 @@
 - Responsive UI:
     A user-friendly interface built with React.js, TailwindCSS, and DaisyUI.
 
-# Updated Project Workflow
+## **Updated Project Workflow**
 - Sign Up:
+    - Create a profile with personal details and skills.
+    - Authenticate using a secure password.
 
-Create a profile with personal details and skills.
-Authenticate using a secure password.
-Explore Developers:
+- Explore Developers:
+    - Browse through developer profiles.
+    - Send requests to connect.
 
-Browse through developer profiles.
-Send requests to connect.
-Manage Requests:
+- Manage Requests:
+    - Accept or reject connection requests from other users.
 
-Accept or reject connection requests from other users.
-Chat:
+- Chat:
+    - Once connected, start a chat with developers in your network.
 
-Once connected, start a chat with developers in your network.
-Stay Connected:
+- Stay Connected:
+    - Maintain a personalized list of connections.
 
-Maintain a personalized list of connections.
+## **Future Enhancements**
+- Filter and Search:
+    - Add filters to search for developers by skills, location, or experience level.
+
+- Profile Customization:
+    - Allow users to add portfolio links, GitHub repositories, or resume uploads.
+
+- Push Notifications:
+    - Notify users when they receive a new connection request or message.
+
+- Deployment:
+    - Host the project live to make it accessible to users online.
 
 ## **Project Structure**
