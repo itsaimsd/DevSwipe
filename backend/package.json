@@ -6,8 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon src/app.js",
-    "start": "npm install pm2 && pm2-runtime src/app.js --name devswipe-backend"
+    "start": "node src/app.js"
   },
+
   "keywords": [
     "node",
     "js",
