@@ -21,8 +21,7 @@
 - Follow these steps to set up the project on your local machine:
 
 - Clone the Repository
-    - git clone 
-    -   https://github.com/itsaimsd/DevSwipe.git
+    - git clone [https://github.com/itsaimsd/DevSwipe.git]
 
     - Navigate to the project directory:
     cd DevSwipe
