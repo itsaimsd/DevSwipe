@@ -22,7 +22,7 @@
 
 - Clone the Repository
     - git clone 
-        https://github.com/itsaimsd/DevSwipe.git
+    -   https://github.com/itsaimsd/DevSwipe.git
 
     - Navigate to the project directory:
     cd DevSwipe
