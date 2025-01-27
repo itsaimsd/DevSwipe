@@ -63,63 +63,62 @@
 ## **Project Structure**
 DevSwipe/
 ## ├── backend/                            # Backend folder
-│   ├── node_modules/                   # Backend dependencies
-│   ├── src/                            # Source files for backend
-│   │   ├── config/                     # Configuration files
-│   │   │   └── database.js             # MongoDB connection setup
-│   │   ├── middlewares/                # Middleware for backend
-│   │   │   └── auth.js                 # JWT authentication middleware
-│   │   ├── models/                     # Database models
-│   │   │   ├── connectionRequest.js    # Model for connection requests
-│   │   │   └── user.js                 # Model for users
-│   │   ├── routes/                     # Backend routes
-│   │   │   ├── auth.js                 # Routes for authentication (login/signup)
-│   │   │   ├── profile.js              # Routes for user profile operations
-│   │   │   ├── request.js              # Routes for managing connection requests
-│   │   │   └── user.js                 # Routes for user operations
-│   │   ├── utils/                      # Utility functions
-│   │   │   └── validation.js           # Validation logic for backend inputs
-│   │   └── app.js                      # Main server file for backend
-│   ├── .gitignore                      # Backend .gitignore file
-│   ├── apiList.md                      # API documentation file
-│   ├── package-lock.json               # Backend lock file
-│   ├── package.json                    # Backend dependencies
-│   └── README.md                       # Instructions for running backend
-│
+##  ├── node_modules/                   # Backend dependencies
+##  ├── src/                            # Source files for backend
+##  │   ├── config/                     # Configuration files
+##  │   │   └── database.js             # MongoDB connection setup
+##  │   ├── middlewares/                # Middleware for backend
+##  │   │   └── auth.js                 # JWT authentication middleware
+##  │   ├── models/                     # Database models
+##  │   │   ├── connectionRequest.js    # Model for connection requests
+##  │   │   └── user.js                 # Model for users
+##  │   ├── routes/                     # Backend routes
+##  │   │   ├── auth.js                 # Routes for authentication (login/signup)
+##  │   │   ├── profile.js              # Routes for user profile operations
+##  │   │   ├── request.js              # Routes for managing connection requests
+##  │   │   └── user.js                 # Routes for user operations
+##  │   ├── utils/                      # Utility functions
+##  │   │   └── validation.js           # Validation logic for backend inputs
+##  │   └── app.js                      # Main server file for backend
+##  ├── .gitignore                      # Backend .gitignore file
+##  ├── apiList.md                      # API documentation file
+##  ├── package-lock.json               # Backend lock file
+##  ├── package.json                    # Backend dependencies
+##  └── README.md                       # Instructions for running backend
+
 ## ├── frontend/                           # Frontend folder
-│   ├── node_modules/                   # Frontend dependencies
-│   ├── public/                         # Static assets
-│   │   ├── index.html                  # Main HTML file
-│   │   └── manifest.json               # Metadata for PWA support
-│   ├── src/                            # Source files for frontend
-│   │   ├── components/                 # Reusable React components
-│   │   │   ├── Body.js                 # Main body of the application
-│   │   │   ├── Connections.js          # Component for connections page
-│   │   │   ├── EditProfile.jsx         # Component for editing user profiles
-│   │   │   ├── Feed.js                 # Component for user feed
-│   │   │   ├── Footer.js               # Footer component
-│   │   │   ├── Login.jsx               # Login/Signup form
-│   │   │   ├── Message.js              # Chat and messaging component
-│   │   │   ├── NavBar.jsx              # Navigation bar
-│   │   │   ├── Profile.jsx             # User profile page
-│   │   │   ├── Requests.js             # Component to view and handle requests
-│   │   │   └── UserCard.js             # Card component for displaying users
-│   │   ├── utils/                      # Utility functions and Redux slices
-│   │   │   ├── appStore.js             # Redux store configuration
-│   │   │   ├── connectionSlice.js      # Redux slice for connection management
-│   │   │   ├── constants.js            # Constants like BASE_URL
-│   │   │   ├── feedSlice.js            # Redux slice for managing feed
-│   │   │   ├── requestSlice.js         # Redux slice for managing requests
-│   │   │   └── userSlice.js            # Redux slice for user management
-│   │   ├── App.js                      # Main React application file
-│   │   ├── index.js                    # Entry point for React
-│   │   ├── index.css                   # Global styles
-│   │   ├── tailwind.config.js          # TailwindCSS configuration
-│   │   └── README.md                   # Instructions for running frontend
-│   ├── .gitignore                      # Frontend .gitignore file
-│   ├── package-lock.json               # Frontend lock file
-│   ├── package.json                    # Frontend dependencies
-│   └── README.md                       # Instructions for running frontend
-│
-├── README.md                           # Main project instructions
-└── LICENSE                             # Project license (if applicable)
+##  ├── node_modules/                   # Frontend dependencies
+##  ├── public/                         # Static assets
+##  │   ├── index.html                  # Main HTML file
+##  │   └── manifest.json               # Metadata for PWA support
+##  ├── src/                            # Source files for frontend
+##  │   ├── components/                 # Reusable React components
+##  │   │   ├── Body.js                 # Main body of the application
+##  │   │   ├── Connections.js          # Component for connections page
+##  │   │   ├── EditProfile.jsx         # Component for editing user profiles
+##  │   │   ├── Feed.js                 # Component for user feed
+##  │   │   ├── Footer.js               # Footer component
+##  │   │   ├── Login.jsx               # Login/Signup form
+##  │   │   ├── Message.js              # Chat and messaging component
+##  │   │   ├── NavBar.jsx              # Navigation bar
+##  │   │   ├── Profile.jsx             # User profile page
+##  │   │   ├── Requests.js             # Component to view and handle requests
+##  │   │   └── UserCard.js             # Card component for displaying users
+##  │   ├── utils/                      # Utility functions and Redux slices
+##  │   │   ├── appStore.js             # Redux store configuration
+##  │   │   ├── connectionSlice.js      # Redux slice for connection management
+##  │   │   ├── constants.js            # Constants like BASE_URL
+##  │   │   ├── feedSlice.js            # Redux slice for managing feed
+##  │   │   ├── requestSlice.js         # Redux slice for managing requests
+##  │   │   └── userSlice.js            # Redux slice for user management
+##  │   ├── App.js                      # Main React application file
+##  │   ├── index.js                    # Entry point for React
+##  │   ├── index.css                   # Global styles
+##  │   ├── tailwind.config.js          # TailwindCSS configuration
+##  │   └── README.md                   # Instructions for running frontend
+##  ├── .gitignore                      # Frontend .gitignore file
+##  ├── package-lock.json               # Frontend lock file
+##  ├── package.json                    # Frontend dependencies
+##  └── README.md                       # Instructions for running frontend
+##
+## ─ README.md                           # Main project instructions 
