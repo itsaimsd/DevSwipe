@@ -14,7 +14,7 @@
 
 - Frontend Repository: DevSwipe Frontend
 - Backend Repository: DevSwipe Backend
-These separate repositories provide a detailed record of the progress and development journey of the project. Feel free to explore them to understand the incremental improvements made during the development process.
+- These separate repositories provide a detailed record of the progress and development journey of the project. Feel free to explore them to understand the incremental improvements made during the development process.
 
 ## **Key Features**
 - User Authentication:
