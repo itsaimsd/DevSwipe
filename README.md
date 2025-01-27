@@ -1,5 +1,12 @@
 # DevSwipe
 
+📌 Note on Project Progress
+- Initially, the frontend and backend were developed in separate repositories to organize and manage development independently. As the project matured, both were integrated into this repository for easier maintenance and deployment.
+
+- Frontend Repository: DevSwipe Frontend
+- Backend Repository: DevSwipe Backend
+- These separate repositories provide a detailed record of the progress and development journey of the project. Feel free to explore them to understand the incremental improvements made during the development process.
+
 **About DevSwipe**
 
 - DevSwipe is a matchmaking platform designed specifically for developers. The platform enables users to create profiles, explore other developers, and connect based on mutual interests, skills, and goals. It includes features such as user authentication, matchmaking, sending connection requests, and a visually appealing interface powered by DaisyUI.
@@ -9,12 +16,7 @@
     - Make Connections: Accept or reject incoming connection requests, building a personalized network.
     - Chat Messaging: Engage in real-time conversations with connections, fostering collaboration and networking.
 
-📌 Note on Project Progress
-- Initially, the frontend and backend were developed in separate repositories to organize and manage development independently. As the project matured, both were integrated into this repository for easier maintenance and deployment.
 
-- Frontend Repository: DevSwipe Frontend
-- Backend Repository: DevSwipe Backend
-- These separate repositories provide a detailed record of the progress and development journey of the project. Feel free to explore them to understand the incremental improvements made during the development process.
 
 ## **Key Features**
 - User Authentication:
