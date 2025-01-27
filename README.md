@@ -122,3 +122,4 @@ DevSwipe/
 │   └── README.md                       # Instructions for running frontend
 │
 ├── README.md                           # Main project instructions
+└── LICENSE                             # Project license (if applicable)
