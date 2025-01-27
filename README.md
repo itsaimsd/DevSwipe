@@ -2,7 +2,7 @@
 
 **About DevSwipe**
 
-    DevSwipe is a matchmaking platform designed specifically for developers. The platform enables users to create profiles, explore other developers, and connect based on mutual interests, skills, and goals. It includes features such as user authentication, matchmaking, sending connection requests, and a visually appealing interface powered by DaisyUI.
+- DevSwipe is a matchmaking platform designed specifically for developers. The platform enables users to create profiles, explore other developers, and connect based on mutual interests, skills, and goals. It includes features such as user authentication, matchmaking, sending connection requests, and a visually appealing interface powered by DaisyUI.
 
 - Additionally, users can:
     - Send Requests: Browse through profiles and send connection requests to other developers.
@@ -28,5 +28,24 @@
 
 - Responsive UI:
     A user-friendly interface built with React.js, TailwindCSS, and DaisyUI.
+
+# Updated Project Workflow
+- Sign Up:
+
+Create a profile with personal details and skills.
+Authenticate using a secure password.
+Explore Developers:
+
+Browse through developer profiles.
+Send requests to connect.
+Manage Requests:
+
+Accept or reject connection requests from other users.
+Chat:
+
+Once connected, start a chat with developers in your network.
+Stay Connected:
+
+Maintain a personalized list of connections.
 
 ## **Project Structure**
