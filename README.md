@@ -62,7 +62,7 @@
 
 ## **Project Structure**
 DevSwipe/
-├── backend/                            # Backend folder
+## ├── backend/                            # Backend folder
 │   ├── node_modules/                   # Backend dependencies
 │   ├── src/                            # Source files for backend
 │   │   ├── config/                     # Configuration files
@@ -86,7 +86,7 @@ DevSwipe/
 │   ├── package.json                    # Backend dependencies
 │   └── README.md                       # Instructions for running backend
 │
-├── frontend/                           # Frontend folder
+## ├── frontend/                           # Frontend folder
 │   ├── node_modules/                   # Frontend dependencies
 │   ├── public/                         # Static assets
 │   │   ├── index.html                  # Main HTML file
