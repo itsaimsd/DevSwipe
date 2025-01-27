@@ -24,10 +24,23 @@
     - git clone [https://github.com/itsaimsd/DevSwipe.git]
 
     - Navigate to the project directory:
+        - cd DevSwipe
+
+    - Install Backend Dependencies
         - cd backend
         - npm install
 
-- 2. Install Backend Dependencies
+- Install Backend Dependencies
+    - cd backend
+    - npm install
+- Configure the Backend
+    - Create a .env file in the backend folder.
+    - Add the following environment variables
+        PORT=5000
+        MONGO_URI=your_mongodb_connection_string
+        JWT_SECRET=your_jwt_secret_key
+             [Replace your_mongodb_connection_string and your_jwt_secret_key with your actual MongoDB connection string and JWT secret key.]
+
 
 
 ## **Key Features**
