@@ -40,6 +40,20 @@
         MONGO_URI=your_mongodb_connection_string
         JWT_SECRET=your_jwt_secret_key
         - [Replace your_mongodb_connection_string and your_jwt_secret_key with your actual MongoDB connection string and JWT secret key.]
+- Start the Backend Server
+    - npm start
+- Install Frontend Dependencies
+    - cd ../frontend
+    - npm install
+- Configure the Frontend
+    - Create a .env file in the frontend folder.
+    - Add the following environment variables:
+        - REACT_APP_BASE_URL=http://localhost:5000
+        - Ensure the REACT_APP_BASE_URL matches the backend server's URL
+-  Start the Frontend Development Server
+    - npm start
+
+
 
 
 
