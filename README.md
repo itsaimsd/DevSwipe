@@ -39,7 +39,7 @@
         PORT=5000
         MONGO_URI=your_mongodb_connection_string
         JWT_SECRET=your_jwt_secret_key
-           - [Replace your_mongodb_connection_string and your_jwt_secret_key with your actual MongoDB connection string and JWT secret key.]
+        - [Replace your_mongodb_connection_string and your_jwt_secret_key with your actual MongoDB connection string and JWT secret key.]
 
 
 
