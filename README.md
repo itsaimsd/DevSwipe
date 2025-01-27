@@ -62,7 +62,7 @@
 
 ## **Project Structure**
 DevSwipe/
--  ├── backend/                            # Backend folder
+- * ├── backend/                            # Backend folder
 -   ├── node_modules/                   # Backend dependencies
 -   ├── src/                            # Source files for backend
 -   │   ├── config/                     # Configuration files
