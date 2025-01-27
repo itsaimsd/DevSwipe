@@ -3,8 +3,8 @@
 📌 Note on Project Progress
 - Initially, the frontend and backend were developed in separate repositories to organize and manage development independently. As the project matured, both were integrated into this repository for easier maintenance and deployment.
 
-- Frontend Repository: DevSwipe Frontend
-- Backend Repository: DevSwipe Backend
+- Frontend Repository: [DevSwipe Frontend](https://github.com/itsaimsd/DevSwipe-Frontend)
+- Backend Repository: [DevSwipe Backend]([text](https://github.com/itsaimsd/DevSwipe-backend))
 - These separate repositories provide a detailed record of the progress and development journey of the project. Feel free to explore them to understand the incremental improvements made during the development process.
 
 **About DevSwipe**
