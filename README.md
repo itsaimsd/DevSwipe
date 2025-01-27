@@ -62,14 +62,14 @@
 
 ## **Project Structure**
 DevSwipe/
-- * ├── backend/                            # Backend folder
--   ├── node_modules/                   # Backend dependencies
--   ├── src/                            # Source files for backend
--   │   ├── config/                     # Configuration files
--   │   │   └── database.js             # MongoDB connection setup
--   │   ├── middlewares/                # Middleware for backend
--   │   │   └── auth.js                 # JWT authentication middleware
-##  │   ├── models/                     # Database models
+#   ├── backend/                            # Backend folder
+#   ├── node_modules/                   # Backend dependencies
+#   ├── src/                            # Source files for backend
+#   │   ├── config/                     # Configuration files
+#   │   │   └── database.js             # MongoDB connection setup
+#   │   ├── middlewares/                # Middleware for backend
+#   │   │   └── auth.js                 # JWT authentication middleware
+#   │   ├── models/                     # Database models
 ##  │   │   ├── connectionRequest.js    # Model for connection requests
 ##  │   │   └── user.js                 # Model for users
 ##  │   ├── routes/                     # Backend routes
