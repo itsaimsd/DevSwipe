@@ -9,6 +9,12 @@
     - Make Connections: Accept or reject incoming connection requests, building a personalized network.
     - Chat Messaging: Engage in real-time conversations with connections, fostering collaboration and networking.
 
+📌 Note on Project Progress
+- Initially, the frontend and backend were developed in separate repositories to organize and manage development independently. As the project matured, both were integrated into this repository for easier maintenance and deployment.
+
+- Frontend Repository: DevSwipe Frontend
+- Backend Repository: DevSwipe Backend
+These separate repositories provide a detailed record of the progress and development journey of the project. Feel free to explore them to understand the incremental improvements made during the development process.
 
 ## **Key Features**
 - User Authentication:
