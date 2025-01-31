@@ -5,8 +5,8 @@ const cookieParser = require("cookie-parser");
 const cors = require("cors");
 
 const corsOptions = {
-  origin: 'https://devswipe.netlify.app', // Explicitly allow your frontend origin
-  credentials: true, // Allow credentials (cookies, authorization headers)
+  origin: 'https://devswipe.netlify.app', 
+  credentials: true, 
 };
 app.use(cors(corsOptions));
 app.use(express.json());
