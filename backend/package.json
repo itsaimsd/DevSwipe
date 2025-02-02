@@ -1,13 +1,12 @@
 {
-  "name": "dev-tinder",
+  "name": "devswipe",
   "version": "1.0.0",
   "description": "tinder for dev",
   "main": "src/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "node src/app.js",
-    "start": "node src/app.js",
-    "build": "webpack --mode production"
+    "start": "nodemon src/app.js"
   },
   "keywords": [
     "node",
