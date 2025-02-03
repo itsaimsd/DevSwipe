@@ -39,3 +39,13 @@
   Route=/login =>login
   Route=/connections =>Connections
   Route=/profile =>Profile
+
+
+# deployement
+- Signup on aws 
+- create a new account
+- create a key value pair
+- Launch instance
+- chmod 400 "dev-swipe-secret.pem"
+- ssh -i "dev-swipe-secret.pem" ubuntu@ec2-13-60-83-3.eu-north-1.compute.amazonaws.com
+- 

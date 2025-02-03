@@ -71,7 +71,8 @@ const Connections = () => {
                 <img
                   src={photoUrl || "https://via.placeholder.com/150"}
                   alt="User"
-                  className="w-24 h-24 rounded-full mx-auto"
+                  // className="w-24 h-24 rounded-full mx-auto"
+                   className="w-32 h-32 rounded-full mx-auto border-4 border-gray-200 dark:border-gray-700 shadow-lg object-cover hover:scale-105 transition-transform duration-200"
                 />
               </figure>
               <div className="card-body">
