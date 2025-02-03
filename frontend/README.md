@@ -1,4 +1,4 @@
-# DevTinder UI
+# DevSwipe UI
 
 - Create a Vite + React application
 - Remove uneccesary code and create a Hellow world app
@@ -62,3 +62,8 @@
   - sudo scp -r build/* /var/www/html/ (ubuntu@ip-172-31-46-144:~/frontend$ sudo scp -r build/* /var/www/html)
   - Enabel port 80 of your instance
   - ![alt text](image-1.png)
+
+
+
+- Backend
+  - 
