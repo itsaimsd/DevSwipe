@@ -51,14 +51,14 @@
 - Install the correct version of node v22.12.0
 - git clone both frontend/backend
   - frontend
-  - npm install ->dependencies install
-  - npm run build
-  - sudo apt update
-  - sudo apt install nginx
-  - sudo systemctl start nginx
-  - sudo systemctl enable nginx
-  - ![alt text](image.png)
-  - copy code from build(build files) to /var/www/html/
-  - sudo scp -r build/* /var/www/html/ (ubuntu@ip-172-31-46-144:~/frontend$ sudo scp -r build/* /var/www/html)
-  - Enabel port 80 of your instance
-  - ![alt text](image-1.png)
+    - npm install ->dependencies install
+    - npm run build
+    - sudo apt update
+    - sudo apt install nginx
+    - sudo systemctl start nginx
+    - sudo systemctl enable nginx
+    - ![alt text](image.png)
+    - copy code from build(build files) to /var/www/html/
+    - sudo scp -r build/* /var/www/html/ (ubuntu@ip-172-31-46-144:~/frontend$ sudo scp -r build/* /var/www/html)
+    - Enabel port 80 of your instance
+    - ![alt text](image-1.png)
