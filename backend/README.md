@@ -14,7 +14,7 @@
 
     - config:
         - server_name 13.60.83.3;
-        
+
         - location /api/ {
         proxy_pass http://localhost:7777/;
         proxy_http_version 1.1;
@@ -26,6 +26,7 @@
 
     - ![alt text](image-3.png)
     - restart nginx : sudo systemctl start nginx
+    - Modify the BASEURL in frontend project to "/api"
 
 
 
