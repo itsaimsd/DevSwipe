@@ -62,3 +62,9 @@
     - sudo scp -r build/* /var/www/html/ (ubuntu@ip-172-31-46-144:~/frontend$ sudo scp -r build/* /var/www/html)
     - Enabel port 80 of your instance
     - ![alt text](image-1.png)
+
+# Adding a custom Domain name
+  - purchased domain name from godaddy
+  - sign up on cloudflare & add a new domain name
+  - change the namseserver on godaddy and point it to cloudflare
+  -  
