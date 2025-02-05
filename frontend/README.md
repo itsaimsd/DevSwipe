@@ -67,4 +67,15 @@
   - purchased domain name from godaddy
   - sign up on cloudflare & add a new domain name
   - change the namseserver on godaddy and point it to cloudflare
-  -  
+  - wait for sometimes till your nameservers are updated ~15min
+  - DNS record: A devswipe.in 13.60.83.3
+  - Enable SSL for website
+
+# Sending Emails via SES
+  - Create a IAM user
+  - Give access to AmazonSESFullAccess
+  - Amazon SES:Create an Identity
+  - Verify your domain name
+  - Verify an Email address
+  - Install AWS SDK -v3 [https://github.com/awsdocs/aws-doc-sdk-examples/tree/main/javascriptv3/example_code/ses#code-examples]
+  - 
