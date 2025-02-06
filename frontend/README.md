@@ -85,4 +85,23 @@
   - Write the code Sending email address
   - Make the email dynamics by passing more params to the run function
   - add .env file
-  - testing in uuntu
+ 
+# Process to deploy when u make any changes 
+- frontend
+  - cd frontend
+  - npm run build
+  - sudo scp -r build/* /var/www/html
+  - done
+- backend
+  - pm2 stop 0 [![alt text](image-2.png)]
+  - pm2 start 0 [![alt text](image-3.png)]
+  - pm2 start npm --name "devSwipe-backend" -- start
+
+# Schduling cron jobs in NodeJs
+  - Installing node-cron
+  - Learning about cron expressions syntax - crontab.guru
+  - Schdule a job
+  - date-fns
+  - Find all the unique id who have got connection friend in previous day
+  - send email
+  - Explore queue mechanism to send bulk emails or check amazon ses bulk emails
