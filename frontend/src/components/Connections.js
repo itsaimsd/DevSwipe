@@ -5,33 +5,6 @@ import { useDispatch, useSelector } from "react-redux";
 import { addConnections } from "../utils/connectionSlice";
 
 const Connections = () => {
-  //   const connections = [
-  //     {
-  //       firstName: "Alice",
-  //       lastName: "Johnson",
-  //       photoUrl: "https://via.placeholder.com/150",
-  //       age: 28,
-  //       gender: "Female",
-  //       about: "Frontend developer with a love for UI/UX design.",
-  //     },
-  //     {
-  //       firstName: "Bob",
-  //       lastName: "Smith",
-  //       photoUrl: null, // No photo available
-  //     //   age: 35,
-  //       gender: "Male",
-  //       about: "Backend developer passionate about open-source contributions.",
-  //     },
-  //     {
-  //       firstName: "Charlie",
-  //       lastName: "Brown",
-  //       photoUrl: "https://via.placeholder.com/150",
-  //       age: 30,
-  //       gender: "Non-binary",
-  //       about: "Digital marketer focused on content strategy.",
-  //     },
-  //   ];
-
   const connections = useSelector((store) => store.connections);
   const dispatch = useDispatch();
 
@@ -40,7 +13,7 @@ const Connections = () => {
       const res = await axios.get(BASE_URL + "/user/connections", {
         withCredentials: true,
       });
-      console.log(res.data.data);
+      // console.log(res.data.data);
       dispatch(addConnections(res.data.data));
     } catch (err) {
       console.error("Error fetching connections:", err);
@@ -72,7 +45,7 @@ const Connections = () => {
                   src={photoUrl || "https://via.placeholder.com/150"}
                   alt="User"
                   // className="w-24 h-24 rounded-full mx-auto"
-                   className="w-32 h-32 rounded-full mx-auto border-4 border-gray-200 dark:border-gray-700 shadow-lg object-cover hover:scale-105 transition-transform duration-200"
+                  className="w-32 h-32 rounded-full mx-auto border-4 border-gray-200 dark:border-gray-700 shadow-lg object-cover hover:scale-105 transition-transform duration-200"
                 />
               </figure>
               <div className="card-body">

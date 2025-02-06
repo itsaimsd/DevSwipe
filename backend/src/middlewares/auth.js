@@ -8,9 +8,6 @@ const userAuth = async (req, res, next) => {
     if (!token) {
       return res.status(401).send("Please Login!!");
     }
- 
-    console.log('JWT SECRET:', process.env.JWT_SECRET);
-    console.log("Hello");
     
     const decodedObj = await jwt.verify(token, process.env.JWT_SECRET);
 
