@@ -78,4 +78,9 @@
   - Verify your domain name
   - Verify an Email address
   - Install AWS SDK -v3 [https://github.com/awsdocs/aws-doc-sdk-examples/tree/main/javascriptv3/example_code/ses#code-examples]
-  - 
+  - setup SesClient
+  - Access Credentials should be created in IAM under SecurityCredentials Tab
+  - Add the credentials to the env file
+  - Write code for SESClient
+  - Write the code Sending email address
+  - Make the email dynamics by passing more params to the run function
