@@ -76,7 +76,7 @@
   - Give access to AmazonSESFullAccess
   - Amazon SES:Create an Identity
   - Verify your domain name
-  - Verify an Email address
+  - Verify an Email identity
   - Install AWS SDK -v3 [https://github.com/awsdocs/aws-doc-sdk-examples/tree/main/javascriptv3/example_code/ses#code-examples]
   - setup SesClient
   - Access Credentials should be created in IAM under SecurityCredentials Tab
