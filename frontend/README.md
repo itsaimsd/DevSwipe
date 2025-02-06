@@ -84,3 +84,4 @@
   - Write code for SESClient
   - Write the code Sending email address
   - Make the email dynamics by passing more params to the run function
+  - add .env file
