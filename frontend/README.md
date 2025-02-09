@@ -90,9 +90,17 @@
 - frontend
   - cd frontend
   - npm run build
-  - sudo scp -r build/* /var/www/html
+  - sudo rm -rf /var/www/html/*
+  - sudo cp -r build/* /var/www/html
+  - sudo systemctl restart nginx
+  - Check Nginx Configuration
+   - sudo nano /etc/nginx/sites-available/default [![alt text](image-4.png)]
+   - Test and reload Nginx
+    - sudo nginx -t
+    - sudo systemctl reload nginx
   - done
 - backend
+  - pm2 restart devSwipe-backend
   - pm2 stop 0 [![alt text](image-2.png)]
   - pm2 start 0 [![alt text](image-3.png)]
   - pm2 start npm --name "devSwipe-backend" -- start
